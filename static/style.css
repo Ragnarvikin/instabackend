@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  
+  .container{
+  height: 65vh;
+  }
+  .Box{
+    /* border: 2px solid red; */
+    height: 85vh;
+  
+  }
+  .img1{
+    /* border: 2px solid green; */
+    text-align: center;
+    
+  }
+  .image{
+    height: 53px;
+    text-align: center;
+     /* border: 2px solid red;  */
+    padding-top: 150px;
+    margin-bottom: 20px;
+  }
+.box2{
+    /* border: 2px solid red; */
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+  input{
+  border-color:  rgba(0, 0, 0, 0.05) ;
+    background-color: rgba(0, 0, 0, 0.05);
+    outline: none;
+  }
+  #email{
+    /* border: 2px solid green; */
+    padding: 13px;
+    width: 37vh;
+    margin: auto;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    outline: 0;
+  }
+  #password{
+    padding: 13px;
+    width:37vh;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    
+  }
+  ::placeholder{
+    color:  rgba(0, 0, 0, 0.4);
+  }
+  .btn{
+    /* border: 2px solid red; */
+    padding: 13px;
+    width: 40vh;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #1877F2;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-color:  rgba(0, 0, 0, 0.05) ;
+    outline: none;
+  }
+  .btn:hover{
+    cursor: pointer;
+    background-color: black;
+  }
+  p{
+    margin-top: 16px;
+    color: rgba(0, 0, 0, 0.541);
+    font-size: 14.2px;
+    
+  }
+  span{
+    color: #1D3C78;
+  }
+  
+  h4 {
+    display: flex;
+    flex-direction: row;
+    color: rgba(0, 0, 0, 0.507);
+    margin-top: 17px;
+    
+  }
+  
+  h4:before,
+  h4:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #0000002E;
+    margin: auto;
+  }
+  
+  .img2{
+  
+  border-radius: 9px;
+  background-color: #1877f0;
+    display: flex;
+  padding: 13px;
+    box-sizing: border-box;
+    width: 39vh;
+  margin: auto;
+  margin-top: 10px;
+  
+  
+  }
+  .image2{
+    height: 25px;
+    /* border: 2px solid red; */
+  }
+  .image2:hover{
+    cursor: pointer;
+    
+  }
+  .span2{
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .span2:hover{
+    cursor: pointer;
+    
+  }
+  
+  hr{
+    margin-top: 20px;
+  }
+  footer{
+  margin-left: 75px;
+  margin-top: 15px;
+  font-size: 14.5px;
+  color:  rgba(0, 0, 0, 0.6);
+  }
+  .span3{
+    color: black;
+    font-weight: bold;
+  }
